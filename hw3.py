@@ -1,28 +1,13 @@
-age = int(input()) 
-if age > 18:
-    print("samsaxuri")
-elif age >= 6:
-    print("skola")
-elif age > 2:
-    print("bagi")
+num1 = input()
+num2 = input()
+num3 = input()
+num4 = input()
+print(int((int(num1) + int(num2) + int(num3) + int(num4)))/4)
+
+full_name = input()
+print("hi" + " " + full_name)
 
 
-academy = input()
-if academy == "GOA":
-    print("U R a real chad")
-else:
-    print("join GOA")
-
-score = int(input())
-if score > 90:
-    print("A")
-elif score > 75:
-    print("B")
-elif score > 60:
-    print("C")
-elif score > 50:
-    print("D")
-elif score > 40:
-    print("E")
-elif score > 30:
-    print("F")
+num5 = input()
+num6 = input()
+print(str(num5) + "😊" + str(num6)) 
