@@ -1,12 +1,3 @@
-# კომპაილერი 
-
-# data types
-#str
-#int
-#float 
-#bollian
-#none
-
 
 print("hello")
 print( 3 + 3)

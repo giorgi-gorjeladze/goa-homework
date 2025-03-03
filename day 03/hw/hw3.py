@@ -1,10 +1,12 @@
 age = int(input()) 
-if age > 18:
+if age >=18:
     print("samsaxuri")
 elif age >= 6:
     print("skola")
 elif age > 2:
     print("bagi")
+else:
+    pass
 
 
 academy = input()
@@ -26,3 +28,5 @@ elif score > 40:
     print("E")
 elif score > 30:
     print("F")
+else:
+    pass
